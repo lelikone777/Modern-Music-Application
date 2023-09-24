@@ -1,136 +1,40 @@
-# Project Lyrics
+# [Lyriks Music Player](https://lyrics-spotify-clone-react-redux-tailwind-rapidapi.vercel.app/)
 
-Develop an elegant React.js Music Application. 
+![Desktop preview](public/desktop.png)
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+![Desktop lyriks preview](public/lyriks.png)
 
-# Contributing
+![Mobile preview](public/mobile.png)
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+- React + Redux Toolkit
 
+- [TailwindCSS](https://tailwindcss.com/)
 
-## System Requirements
+- [RapidAPI Shazam Core API](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1hua00yc1JDU21FWHJhb2x1STNzT2U2X0h3d3xBQ3Jtc0trMFpQYUNJQkdnMTN3Y3JhXzlrZFBuSG1ZLUdNZjQyTzNMUkdhOEx5M3EzZUFjVWY5Q2pYNUNSOE1PVUZZLXl5dXdVajFldGlLc0liSVBnRXJILU9pQXhaNktTNU4wanBkMnd4akRtM21YcTIyV09kbw&q=https%3A%2F%2Frapidapi.com%2Ftipsters%2Fapi%2Fshazam-core%3Futm_source%3Dyoutube.com%2FJavaScriptMastery%26utm_medium%3Dreferral%26utm_campaign%3DDevRel&v=I1cpb0tYV74)
 
-To get started with development, you need to install few tools
+Основная цель проекта - демонстрация и усовершенствование своих технологических навыков и знаний веб-разработки с использованием React + Redux Toolkit, TailwindCSS и данными из Shazam api.
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+Дополнительная цель проекта - предоставить любителям музыки возможность быстро и удобно находить
+нужную информацию о любимых музыкальных композициях и их исполнителях. Узнавать актуальную информацию о трендах в мире музыки. Возможность просмотреть информацию о композиции - например текст песни.
 
-   To check your version of git, run:
+Проект находится на стадии разработки и периодически обновляется.
 
-   ```shell
-    git --version
-   ```
-
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
-
-   To check your version of node, run:
-
-   ```shell
-    node --version
-   ```
-
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
-
-   To check your version of npm, run:
-
-   ```shell
-    npm --version
-   ```
-
-## Setup
-
-To set up a development environment, please follow these steps:
-
-1. Clone the repo
-
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
-
-2. Change directory to the project directory
-
-    ```shell
-    cd project1_team4_repository
-    ```
-
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
-
-    Project will be running in the browser.
-
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+Современная домашняя страница, полноценный музыкальный плеер, поиск, тексты песен, функции поиска, популярная музыка вокруг вас, мировые топ-чарты и многое другое - это полностью рабочее и функциональное музыкальное приложение.
 
 
-## Pull Request
++===========+
 
-There are 2 main work flows when dealing with pull requests:
+The main goal of the project is to demonstrate and improve one's technological skills and knowledge of web development using React + Redux Toolkit, TailwindCSS and data from Shazam api.
 
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
+An additional goal of the project is to provide music lovers with the ability to quickly and conveniently find the
+the necessary information about their favorite music tracks and their artists. Find out the latest information about trends in the world of music. Ability to view information about the song - for example, the lyrics.
 
-Here we are going to focus on 2. Creating a Topical Branch:
+The project is under development and is periodically updated.
+
+Modern homepage, full-featured music player, search, lyrics, search functions, popular music around you, world top charts and much more - this is a fully working and functional music application.
+
+Translated with www.DeepL.com/Translator (free version)
 
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
 
-   ```bash
-    git pull origin main
-   ```
 
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
